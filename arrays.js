@@ -49,3 +49,10 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
   return chocolateBars
 }
 destructivelyRemoveElementFromEndOfArray(chocolateBars)
+
+function removeElementFromEndOfArray(chocolateBars) {
+  chocolateBars.slice(o, chocolateBars.length - 1)
+  return chocolateBars
+}
+
+removeElementFromEndOfArray(chocolateBars)
